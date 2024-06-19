@@ -1,0 +1,247 @@
+# Change Log
+### Added
+## [1.13.12] - 2023-12-08
+- added ean, mpn, isbn, jan to the order details product information
+
+### Added
+## [1.13.11] - 2021-11-29
+- added original image url to the slideshow API endpoint
+- fixed address php notice
+
+### Added
+## [1.13.10] - 2021-07-07
+- added option for sorting order list by date_added, date_modified, order_id and total
+- fixed product update keyword checking
+
+### Fix
+## [1.13.9] - 2021-02-08
+-  fix text and textarea type order product Option response data
+### Fix
+## [1.13.8] - 2020-11-30
+-  fix removing related products
+
+## [1.13.7] - 2020-11-05
+### Fix
+- Added custom_field to the get orders with details API call
+
+## [1.13.6] - 2020-08-21
+### Fix
+- Change secret key validation
+
+## [1.13.5] - 2020-08-18
+### Added
+- Added tax_class_id to the order details response
+
+## [1.13.4] - 2020-06-26
+### Added
+- Added Hungarian VAT number support
+
+## [1.13.3] - 2020-05-12
+### Added
+- Added the following API endpoints: getManufacturerIdByName, getCategoryIdByName, getProductIdByEan, getProductIdByISBN,
+    getProductIdBySKU, getProductIdByModel
+
+## [1.13.2] - 2020-05-07
+### Fix
+- fixing XSS security issue
+
+## [1.13.1] - 2020-04-28
+### Fix
+- Fix category description update
+- Fix update of related products
+## [1.13.0] - 2020-04-18
+### Added
+- Added Return and return history support
+
+## [1.12.0] - 2020-01-31
+### Added
+- Added Logging feature to the API
+
+## [1.11.4] - 2020-01-25
+### Added
+- Added tracking number to the response of the get order API call
+
+## [1.11.3] - 2019-12-30
+### Fix
+- Added first name and last name to the response of get customers API endpoint
+
+## [1.11.2] - 2019-12-24
+### Fix
+- Fix category and manufacturer SEO keyword validation
+- Added manufacturer SEO urls to the response of get manufacturers API endpoint
+
+## [1.11.1] - 2019-11-19
+### Fix
+- Fix product attribute query for multilingual sites
+
+## [1.11.0] - 2019-11-11
+### Added
+- Added store statistic service
+
+## [1.10.5] - 2019-07-25
+### Changed
+- Changed the response of the payment method and shipping method services
+
+## [1.10.4] - 2019-07-16
+### Added
+- Added API to manage filters and filter groups
+
+## [1.10.3] - 2019-07-04
+### Added
+- Added API to get / update / delete product by model
+
+## [1.10.2] - 2019-06-12
+### Fix
+- Fix tax calculation in the create Order service
+
+## [1.10.1] - 2019-05-08
+### Added
+- Added missing payment_custom_field and shipping_custom_field to the Order details
+
+## [1.10.0] - 2019-04-16
+### Added
+- Added API request logger feature
+
+## [1.9.7] - 2019-03-20
+### Added
+- Added product date_modified sort option
+
+## [1.9.6] - 2018-10-15
+### Added
+- Added shipping point support to the order details service
+
+## [1.9.5] - 2018-06-26
+### Fix
+- Fixing search rewrite rules
+- Fixing search product by sku response
+
+## [1.9.4] - 2018-06-18
+### Fix shipping total in the order detail response
+
+## [1.9.3] - 2018-06-12
+### Fix image upload function (validation)
+
+## [1.9.2] - 2018-05-20
+### Added
+- Added external image support for category and manufacturer specific services
+
+## [1.9.1] - 2018-05-14
+### Added
+- Added bulk product delete service
+- Added customer group filter to the customers list API
+### Fix
+- Fix bulk product services Id validation
+- Fix parameter validation
+
+## [1.9.0] - 2018-05-10
+### Added
+- Added customer affiliate support
+### Fix
+- Change error handling of bulk product services
+- Fix customer custom field issues
+
+## [1.8.0] - 2018-05-04
+### Added
+- Added missing option type to the option specific responses
+- Add cioptionsku extension support
+- Added external images for product specific services
+
+## [1.7.3] - 2018-04-21
+### Fix
+- Removing fax from response, changing option value name validation
+- Small bugfixes
+
+## [1.7.2] - 2018-03-26
+### Fix
+- Added missing store field to the product specific responses
+
+## [1.7.1] - 2018-03-21
+### Fix
+- Fix image upload error
+- Fix account and address custom fields
+- Added missing category fields to the response
+- Added extended list category service
+
+## [1.7.0] - 2018-03-18
+### Added
+- Added pagination and item count to the orders, products, manufacturers, customers list response header
+
+## [1.6.1] - 2018-03-06
+### Fix
+- Fix missing option_value in create product service
+
+## [1.6.0] - 2018-02-10
+### Added
+- Added tracking number update service
+
+## [1.5.1] - 2018-02-08
+### Fix
+- Param validation fix in the restcontroller.php
+
+## [1.5.0] - 2018-01-26
+### Added
+- Added filters to load orders and helper services
+
+## [1.4.5] - 2018-01-08
+### Added
+- Added store filter to load customers and load orders services
+
+## [1.4.3] - 2017-12-24
+### Fix
+- Added download mask field, fixed customer custom field issues
+
+## [1.4.0] - 2017-10-11
+### Added
+- Added invoice number management services
+
+## [1.3.2] - 2017-10-05
+### Fix
+- Fix order status filter
+### Changed
+- Changed response header setter
+- Changed the add additional images to product service url, we added a sort order parameter
+
+## [1.3.1] - 2017-09-22
+### Fix
+- Fix category update
+
+## [1.3.0] - 2017-08-12
+### Added
+- Added automatic .htaccess rewrite rule update
+
+## [1.2.0] - 2017-08-04
+### Added
+- Added Generate API Secret key button
+### Fix
+- Fixed OPTIONS header not allowed response
+- Fixed admin design
+
+## [1.1.1] - 2017-08-02
+### Fix
+- Fix find product by sku rewrite rule
+- Fix update product quantity by sku service
+
+## [1.1.0] - 2017-07-18
+### Added
+- Added new product option price update service
+- Added date modified field to addProduct model function
+- Changed SEO keyword validation
+## [1.0.4] - 2017-07-16
+### Fix
+- Fix GET UTC offset service
+
+## [1.0.3] - 2017-07-14
+### Fix
+- Fix getProductsByIds model function
+
+## [1.0.2] - 2017-07-06
+### Fix
+- Fix create order service
+
+## [1.0.1] - 2017-06-30
+### Added
+- Added missing order details pagination rewrite rule
+
+## [1.0.0] - 2017-06-22
+### Added
+- Initial release

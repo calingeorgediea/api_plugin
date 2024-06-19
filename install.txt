@@ -1,0 +1,51 @@
+How to install:
+==================
+The upload folder contains all files for this module.
+You will notice that the folders are in the same structure as your Opencart installation.
+
+1. Navigate to your opencart root folder using an FTP program
+2. Upload the "catalog", "system" and "admin" folder to your opencart installation folder
+3. Go to your admin area in Extensions, select Modules from dropdown list and enable your REST Admin API extension
+   You have to fill the Order id field (you can find it in the order email)
+   You have to fill the API security key field (eg. 12345 or anything else)
+   You have to use this key in your REST requests header.
+
+   Extra header parameter name is: X-Oc-Restadmin-Id
+
+4. Configure
+    Go to your admin page and go to System -> Users -> User groups.
+    Edit the user group you want to give access and modify permissions for the API.
+    Give Access and Modify Permissions to the extension/module/rest_admin_api and Save the changes.
+
+5. OPTIONAL: Update your .htaccess file, if you got any error on the API settings page after you installed it
+   Paste the rewrite rules from the htaccess_rewrite_rules.txt file into your opencart root folder .htaccess file after "RewriteBase /"
+
+Troubleshooting:
+=================
+If something isn't working for you...
+  1. Please first visit our FAQ page : https://opencart-api.com/faqs/
+     and our forum: https://opencart-api.com/forum/
+     You can find PHP and javascript codes on the FAQ page
+
+  2. If you do not find the solution, please send any relevant errors and your order ID to me at the support email below.
+
+  3. To speed up the process, include ftp details so that I can quickly identify and correct any issues.
+
+  4. If there is a problem caused by a conflicting 3rd party mod, additional costs will be incurred for any adjustments.
+
+
+Support:
+===============
+Please DO NOT use the extension store comments for support.
+Fastest support is received by contacting me directly:
+	Email: info@opencart-api.com
+
+Documentations: https://opencart-api.com/opencart-rest-api-documentations/
+Support policy: https://opencart-api.com/support-policy/
+Terms & Conditions: https://opencart-api.com/terms-conditions/
+
+License:
+=========
+Please read the LICENSE.txt.
+
+

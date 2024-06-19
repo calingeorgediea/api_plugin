@@ -1,0 +1,20 @@
+- This software is not free.
+- You agree to use our products for one website per product purchased.
+- Contact us if you require it for more and we will quote a volume based price.
+
+- When you buy the extension at usual price you automatically get the one time usage license.
+    It enables you to use each individual product on a single website only, belonging to either you or your client.
+
+- You have to purchase the same package again if you plan to use the same extension in connection with another or other projects.
+
+- If you are a developer and need the extension for multiple website projects,
+   please send an email to info@opencart-api.com regarding a multi-website license
+
+- The extension is available for download or purchase only on opencart.com and on opencart-api.com
+    if you download or purchase the extension from a other website,
+    please respect the effort and time spent to accomplish this work and send an email to
+    info@opencart-api.com regarding copyright infringement
+
+- Publication or reselling the extension is NOT ALLOWED
+
+Terms & Conditions: https://opencart-api.com/terms-conditions/

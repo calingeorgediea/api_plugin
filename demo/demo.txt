@@ -1,0 +1,2 @@
+You can find working demo scripts here:
+https://opencart-api.com/opencart-rest-api-demo-clients/
